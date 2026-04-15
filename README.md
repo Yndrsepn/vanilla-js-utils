@@ -33,25 +33,25 @@ console.log(Utils.choose([1,2,3]));
 
 ### DOM
 
-* `l(what)` — Shortcut for `document.getElementById`
+* `l(_what)` — Shortcut for `document.getElementById`
 
 ### Text
 
-* `EscapeRegExp(str)` — Escape special regex characters
-* `ReplaceAll(find, replace, str)`
-* `Lig(str)` — Replace ligatures (ffi, fl, etc.)
-* `utf8_to_b64(str)`
-* `b64_to_utf8(str)`
+* `EscapeRegExp(_str)` — Escape special regex characters
+* `ReplaceAll(_find,_replace,_str)`
+* `Lig(_str)` — Replace ligatures (ffi, fl, etc.)
+* `utf8_to_b64(_str)`
+* `b64_to_utf8(_str)`
 
 ### Utilities
 
-* `choose(arr)` — Random element from array
-* `Romanize(num)` — Convert number to Roman numerals
+* `choose(_arr)` — Random element from array
+* `Romanize(_num)` — Convert number to Roman numerals
 
 ### Events
 
-* `AddEvent(el, ev, func)`
-* `RemoveEvent(handle)`
+* `AddEvent(_el,_ev,_func)`
+* `RemoveEvent(_handle)`
 
 ## License
 
