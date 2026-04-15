@@ -39,7 +39,7 @@ console.log(Utils.choose([1,2,3]));
 
 * `EscapeRegExp(_str)` — Escape special regex characters
 * `ReplaceAll(_find,_replace,_str)`
-* `Lig(_str)` — Replace ligatures (ffi, fl, etc.)
+* `Lig(_str)` — Replace ligatures (ﬃ, ﬂ, etc.)
 * `utf8_to_b64(_str)`
 * `b64_to_utf8(_str)`
 
