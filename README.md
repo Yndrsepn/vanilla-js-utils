@@ -3,6 +3,8 @@
 A small collection of simple JavaScript utility functions.
 No dependencies, single file, easy to use.
 
+A lightweight JavaScript utility library with no dependencies. Simple helper functions for browser and Node.js.
+
 ## Features
 
 * Lightweight
