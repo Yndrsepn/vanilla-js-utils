@@ -1,6 +1,6 @@
 /*
 	Utils.js
-	Copyright (c) 2026 YttriumLab
+	Copyright (c) 2026 Yndrsepn
 	
 	Released under the MIT License.
 	https://opensource.org/licenses/MIT
