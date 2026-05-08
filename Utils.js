@@ -124,3 +124,7 @@ Utils.Set=function()
 	var choose=Utils.choose;
 	var Romanize=Utils.Romanize;
 }
+/*Utils.Init=function()
+{
+	
+}*/
