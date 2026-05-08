@@ -112,6 +112,7 @@ Utils.Romanize=function(_num)
 
 Utils.Set=function()
 {
+	//For those who want to type these functions quickly
 	var l=Utils.l;
 	var AddEvent=Utils.AddEvent;
 	var RemoveEvent=Utils.RemoveEvent;
