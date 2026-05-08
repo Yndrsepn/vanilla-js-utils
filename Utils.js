@@ -78,6 +78,8 @@ Utils.b64_to_utf8=function(_str)
 	{return '';}
 }
 
+Utils.Cap=function(_str){return _str.charAt(0).toUpperCase()+_str.slice(1);}
+
 /*=======================================================================================
 	USEFUL TOOLS
 =======================================================================================*/
@@ -102,4 +104,23 @@ Utils.Romanize=function(_num)
 			roman=(key[+digits.pop()+(i*10)]||'')+roman;
 		}
 		return Array(+digits.join('')+1).join('M')+roman;
+}
+
+/*=======================================================================================
+	INITIALIZATION AND CONFIGURATION
+=======================================================================================*/
+
+Utils.Set=function()
+{
+	var l=Utils.l;
+	var AddEvent=Utils.AddEvent;
+	var RemoveEvent=Utils.RemoveEvent;
+	var EscapeRegExp=Utils.EscapeRegExp;
+	var ReplaceAll=Utils.ReplaceAll;
+	var Lig=Utils.Lig;
+	var utf8_to_b64=Utils.utf8_to_b64;
+	var b64_to_utf8=Utils.b64_to_utf8;
+	var Cap=Utils.Cap;
+	var choose=Utils.choose;
+	var Romanize=Utils.Romanize;
 }
