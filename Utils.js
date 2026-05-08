@@ -84,7 +84,11 @@ Utils.Cap=function(_str){return _str.charAt(0).toUpperCase()+_str.slice(1);}
 	USEFUL TOOLS
 =======================================================================================*/
 
-Utils.choose=function(_arr){return _arr[Math.floor(Math.random()*_arr.length)];}
+Utils.choose=function(_arr)
+{
+	if(!_arr.length) return '';
+	return _arr[Math.floor(Math.random()*_arr.length)];
+}
 
 Utils.Romanize=function(_num)
 {
@@ -105,27 +109,3 @@ Utils.Romanize=function(_num)
 		}
 		return Array(+digits.join('')+1).join('M')+roman;
 }
-
-/*=======================================================================================
-	INITIALIZATION AND CONFIGURATION
-=======================================================================================*/
-
-Utils.Set=function()
-{
-	//For those who want to type these functions quickly
-	var l=Utils.l;
-	var AddEvent=Utils.AddEvent;
-	var RemoveEvent=Utils.RemoveEvent;
-	var EscapeRegExp=Utils.EscapeRegExp;
-	var ReplaceAll=Utils.ReplaceAll;
-	var Lig=Utils.Lig;
-	var utf8_to_b64=Utils.utf8_to_b64;
-	var b64_to_utf8=Utils.b64_to_utf8;
-	var Cap=Utils.Cap;
-	var choose=Utils.choose;
-	var Romanize=Utils.Romanize;
-}
-/*Utils.Init=function()
-{
-	
-}*/
